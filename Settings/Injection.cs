@@ -1,11 +1,11 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
+using Microsoft.Extensions.Configuration;
 
-namespace Project.CrossCutting.SettingsInjection
+namespace Project.CrossCutting.Settings
 {
-    public class SettingsInjection
+    public class Injection
     {
         private static IConfigurationRoot _config = null;
 
